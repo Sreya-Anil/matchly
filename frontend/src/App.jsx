@@ -1,11 +1,12 @@
-import './App.css';
-import Navbar from "./components/Navbar";
+import Navbar from './components/Navbar'
+
 function App() {
   return (
-    <div className="app">
+    <div className="min-h-screen bg-[#FAFAF7]">
       <Navbar />
+      <Hero/>
     </div>
   )
 }
 
-export default App;
+export default App
