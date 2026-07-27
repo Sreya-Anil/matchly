@@ -1,11 +1,15 @@
-import Navbar from './components/Navbar'
-import Hero from "./components/Hero";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Landing from './components/Landing'
+import Home from './components/Home'
+
 function App() {
   return (
-    <div className="min-h-screen bg-[#FAFAF7]">
-      <Navbar />
-      <Hero />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
