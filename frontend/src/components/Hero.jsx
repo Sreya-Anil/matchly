@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="flex items-center justify-between px-12 py-20">
+    <section className="flex items-center justify-between min-h-[80vh] px-12 py-20 bg-[#FAFAF7]">
       {/* Left Content */}
       <div>
         <h1>Match smarter.</h1>
