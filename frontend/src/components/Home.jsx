@@ -1,13 +1,13 @@
-import Navbar from './Navbar'
-import Hero from './Hero'
+import Navbar from "./Navbar";
+import DashboardHero from "./DashboardHero";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <DashboardHero />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
